@@ -5,6 +5,7 @@
 import React from 'react';
 import Header from './components/Header';
 import styled from '@emotion/styled';
+import Form from './components/Form';
 
 
 
@@ -26,7 +27,7 @@ function App() {
    <Container>
        <Header title="Cotizador de Seguros"/>
        <ContainerForm>
-        
+          <Form/>
        </ContainerForm>
    </Container>
   );

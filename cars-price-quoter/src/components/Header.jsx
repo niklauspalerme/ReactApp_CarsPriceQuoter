@@ -25,8 +25,6 @@ const TextHeader = styled.h1`
 `;
 
 
-
-
 const Header = ({title}) => {
     return ( 
         <HeaderContainer>
